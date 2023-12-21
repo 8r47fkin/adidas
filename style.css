@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(adidas.png);
+}
+
+/* section {
+    height: 100vh;
+    background: url(adidas.png);
+    overflow: hidden;
+} */
+
+.tilt {
+    width: 80%;
+}
+.tilt:hover {
+    transform: scale(5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.logad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#header_container { background:#121a4a; border:1px solid #d94330;height:70px; left:0; position:fixed; width:100%; top:0; }
+#header{ line-height:60px; margin:0 auto; width: 100%; text-align:center; }
+
+.flex-container > div {
+    display: flex;
+    margin: 0x;
+    padding: 0px;
+}
+
+#footer_container { background:#121a4a; border:1px solid #d94330; bottom:0; height:70px; left:0; position:fixed; width:100%; }
+#footer { line-height:60px; margin:0 auto; width:100%; text-align:center; }
+
